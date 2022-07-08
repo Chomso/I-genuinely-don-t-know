@@ -1,0 +1,46 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: serif;
+  line-height: 1.2;
+  background-color: Blanchedalmond;
+}
+.woeoeo {
+  border: dashed;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+h1 {
+  color: #6D4C3D;
+}
+h3 {
+  color: #6D4C3D;
+}
+.differentnow {
+  background-color: #84A98C;
+  color: #354F56;
+}
+.nextlo {
+  background-color: #F2A65A;
+  color: #772F1A;
+}
+p {
+  color: #6D4C3D;
+
+}
